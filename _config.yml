@@ -56,10 +56,10 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Queremos que nuestra boda sea <typeout> 2014"
+heroTitle: "¡Nos casamos! <typeout>"
 eventDate: "14 de Octubre de 2017"
-typeoutTextValues: '"especial", "divertida", "entrañable"'
-typeoutFallback: "Season"
+typeoutTextValues: '"Víctor", "Carol"'
+typeoutFallback: "Víctor"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
