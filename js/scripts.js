@@ -103,7 +103,7 @@
             if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
                 var hash = window.location.hash;
                 $(hash).click();
-            } 
+            }
         });
 
         $(function() {
@@ -287,7 +287,6 @@
         var markers = [];
         var directionsService = new google.maps.DirectionsService();
         var MY_MAPTYPE_ID = 'custom_style';
-
         function initialize() {
             directionsDisplay = new google.maps.DirectionsRenderer({
                 suppressMarkers: true
@@ -388,12 +387,14 @@
             }
 
             map = new google.maps.Map(document.getElementById('canvas-map'), mapOptions);
+
             var marker = new google.maps.Marker({
                 position: eventPlace,
                 animation: google.maps.Animation.DROP,
                 icon: icon,
                 map: map
             });
+
             markers.push(marker);
             var defaultMapOptions = {
                 name: 'Default Style'
@@ -483,7 +484,7 @@
                 setDirectionInput(origin);
                 $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
             }
-            
+
             function calcRouteFromMyLocation() {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(function(position) {
