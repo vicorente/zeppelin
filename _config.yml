@@ -58,8 +58,8 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "Nuestra boda - Víctor y Carol"
 eventDate: "14 de Octubre de 2017"
-typeoutTextValues: '"Víctor", "Carol"'
-typeoutFallback: "Víctor"
+typeoutTextValues: '""'
+typeoutFallback: ""
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
