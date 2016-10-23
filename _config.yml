@@ -58,11 +58,11 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "Nuestra boda - Víctor y Carol"
 eventDate: "14 de Octubre de 2017"
-typeoutTextValues: '""'
-typeoutFallback: ""
-heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+#typeoutTextValues: '""'
+#typeoutFallback: ""
+#heroButtons:
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About GDG DevFest"
